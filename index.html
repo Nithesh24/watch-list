@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "main.js" defer></script>
+</head>
+<body>
+    <div class = "menu-bar">
+        <div class = "categories">
+            <div class = "category movies" onclick = "cat_switch('movies')">
+                <img src = "assets/movies.jpg" alt = "image not found">
+                Mvies
+            </div>
+            <div class = "category series" onclick = "cat_switch('series')">
+                <img src = "assets/series.jpg" alt = "image not found">
+                Series
+            </div>
+            <div class = "category anime" onclick = "cat_switch('anime')">
+                <img src = "assets/anime.jpg" alt = "image not found">
+                Anime
+            </div>
+            <div class = "category manga" onclick = "cat_switch('manga')">
+                <img src = "assets/manga.jpg" alt = "image not found">
+                Manga
+            </div>
+            <div class = "category books" onclick = "cat_switch('books')">
+                <img src = "assets/boooks.jpg" alt = "image not found">
+                Bks
+            </div>
+            <div class = "category manhwa" onclick = "cat_switch('manhwa')">
+                <img src = "assets/mnhwa.jpg" alt = "image not found">  
+                Manhwa
+            </div>
+            <div class = "category games" onclick = "cat_switch('games')">
+                <img src = "assets/games.jpg" alt = "image not found">
+                games
+            </div>
+        </div>
+        <div class = "type">
+            <label>Watched</label>
+            <label class="switch">
+                <input type="checkbox" onclick = "watch_switch(this)">
+                <span class="slider round"></span>
+            </label>
+            <label>To Watch</label>
+        </div>
+    </div>
+    <div class = "data-body">
+
+    </div>
+</body>
+</html>
